@@ -1,0 +1,15 @@
+<h1>啟用 cmsimde</h1>
+<p>在空白的資料庫中</p>
+<p>git submodule add <a href="https://github.com/mdecourse/cmsimde.git">https://github.com/mdecourse/cmsimde.git</a> cmsimde</p>
+<p>將 cmsimde 中的 up_dir 內容, 複製放到與 cmsimde 目錄相同位階</p>
+<p>cd 至 cmsimde 目錄後, 以 python wsgi.py 啟動近端動態資料維護.</p>
+<p>動態內容維護完成後, 以 generate_pages 轉為靜態內容後, 可以再退出 cmsimde 目錄後.</p>
+<p>將資料提交推送到遠端, 並設定 Github Pages 對應分支.</p>
+<p>首次將近端空白目錄設為 Github 倉儲架構, 且與遠端倉儲進行對應的流程:</p>
+<pre class="brush:js;auto-links:false;toolbar:false" contenteditable="false">git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/mdecd/2019final-scrum.git
+git push -u origin master</pre>
+<h1>期末分組考試</h1>
+<p></p>
